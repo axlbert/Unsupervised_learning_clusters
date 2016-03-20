@@ -1,6 +1,7 @@
 .navbar-default{
     background:transparent;
     border:none !important;
+
 }
 .navbar-nav>li>a:hover{
     color:#1a1a1a;
@@ -19,11 +20,38 @@
 }
 
 #two {
-	 background-image: url("berge.jpg");
-	 -o-background-size:100% auto;
--webkit-background-size:100% auto;
--moz-background-size:100% auto;
-background-size:100% auto;
+	 background: url("cockpit.jpg") 0 no-repeat;
+	 -o-background-size:100%;
+-webkit-background-size:100%;
+-moz-background-size:100%;
+background-size:cover;
+
+height: 400px;
+
+}
+
+#sogehts {
+
+}
+
+#buchen {
+     background: url("ordernow.jpg") 0 no-repeat;
+     -o-background-size:100%;
+-webkit-background-size:100%;
+-moz-background-size:100%;
+background-size:cover;
+
+height: 400px;
+
+}
+
+.navtext {
+    color: white;
+}
+
+
+#transparent {
+ background: rgba(255,255,255,0.3);
 }
 
 .logobanner {
@@ -35,4 +63,4 @@ background-size:100% auto;
 
 @media (max-width: 767px) {
 
-#two { display: none; }
+#one { display: none; }
